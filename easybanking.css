@@ -1,0 +1,120 @@
+/* .navbar-text {
+
+    background: linear-gradient(to right, rgb(96, 241, 96), rgb(25, 236, 236));
+    width: 10rem;
+    height: 3rem;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    position: relative;
+    z-index: 5;
+    padding: 2px 70px !important
+}
+
+.mock-up {
+    /* width: 420px;
+    height: 550px; */
+    position: absolute;
+    left: 100px;
+    top: -350px;
+    /* left: 400px;
+    bottom: 20px; */
+    z-index: 1;
+}
+
+.bg {
+    width: 500px;
+    height: 460px;
+    position: relative;
+    top: -100px;
+    z-index: -1;
+}
+
+
+.button {
+    background: linear-gradient(to right, rgb(96, 241, 96), rgb(25, 236, 236));
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    border: none;  
+}
+
+.gen-next {
+    padding: 0px 70px;
+    position: relative;
+    margin-top: 150px;
+}
+
+.next {
+    width: 350px;
+}
+
+.easy-bank {
+    background-color: rgb(241, 241, 239);
+    padding: 50px;
+    position: relative;
+    /* padding: 0px 70px; */
+}
+
+/* .pad {
+    padding: 0px 70px;
+} */
+
+.article {
+    padding: 0px 70px;
+}
+
+.latest {
+    margin-top: 150px;
+}
+
+.background {
+    background-color: rgb(8, 1, 17);
+    padding: 0.1px 100px;
+    color: white;
+    margin-top: 50px;
+    /* padding: 0px 70px; */
+}
+
+.bottom {
+    
+    padding-top: 30px;
+}
+
+.copy {
+    padding: 10px;
+}
+
+.social-media {
+    padding: 20px 0px;
+    text-align: left;
+}
+
+@media (max-width: 850px) {
+    body{text-align: center;}
+    .mock-up {position: relative}
+    .bg{position: sticky;}
+} 
+
+ul li{
+    list-style-type: none;
+    
+}
+
+ul li a {
+    
+    color: white;
+    text-decoration: none;
+}
